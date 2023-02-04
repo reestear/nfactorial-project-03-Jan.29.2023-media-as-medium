@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Kanit&display=swap');
+body{
+    margin-left: 160px;
+    margin-right: 160px;
+    width: 1120px;
+    background-color: #F1F1F1;
+}
+#my-header{
+    /* Auto layout */
+    display: flex;
+
+    width: 100%;
+    height: 70px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#logo{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+/* main body */
+#second-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 100%;
+    height: 152px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#second-header img{
+    width: 24px;
+    height: 24px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#news-fill{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 100%;
+    height: 1718px;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+#news-fill-main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 100%;
+    height: 1586px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#news-fill-main-author{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 64px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#news-fill-main-author-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 323px;
+    height: 64px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#news-fill-main-author-info img{
+    width: 64px;
+    height: 64px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#news-fill-main-author-info-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    width: 243px;
+    height: 52px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+#news-authorsName{
+    width: 124px;
+    height: 22px;
+
+    /* Body L 18 pt/Medium */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 122% */
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    margin: 0;
+}
+#news-fill-main-author-info-text-main{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+
+    width: 243px;
+    height: 18px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    color: #000000;
+
+    opacity: 0.5;
+}
+#news-fill-main-author-info-text-main p{
+    margin: 0;
+}
+#news-fill-main-author-socials{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 100px;
+    height: 24px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+#news-fill-main-author-socials-logos{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 14px;
+
+    width: 100px;
+    height: 24px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.news-fill-main-author-socials-logos-grid{
+    width: 24px;
+    height: 24px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.news-fill-main-author-socials-logos-grid img{
+    width: 18px;
+    height: 18px;
+    left: 3px;
+    top: 3px;
+}
+#news-fill-main-title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 100%;
+    /* height: 98px; */
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    padding-bottom: 40px;
+}
+#news-title{
+
+    width: 100%;
+    height: 38px;
+
+    /* Number 34 pt/Bold */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 38px;
+    /* identical to box height, or 112% */
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;   
+    flex-grow: 0;
+
+    margin-top: 75px;
+    margin-bottom: 0;
+}
+#news-subtitle{
+    width: 100%;
+    height: 36px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+#news-fill-main-img{
+    width: 1120px;
+    height: 480px;
+
+    border-radius: 4px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+    padding-bottom: 50px;
+}
+#news-fill-main-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 100%;
+    height: 640px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+#news-fill-main-text-subheader{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height, or 117% */
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+#news-fill-main-text-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200px;
+    font-size: 18px;
+    line-height: 36px;
+    /* or 150% */
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+#news-fill-main-bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 24px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 4;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#actions-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 14px;
+
+    width: 111px;
+    height: 24px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.actions-left-grp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+
+    width: 53px;
+    height: 24px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.actions-left-grp-grid{
+    width: 24px;
+    height: 24px;
+
+
+    /* Inside auto layout */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 0;
+    flex-grow: 0;
+}
+.actions-left-grp-grid img{
+    width: 18px;
+    height: 18px;
+    left: 3px;
+    top: 3px;
+}
+.label{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #B7B7B7;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+#actions-right-grid{
+    width: 24px;
+    height: 24px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+#actions-right-grid img{
+    width: 18px;
+    height: 18px;
+    left: 3px;
+    top: 3px;
+}
+
+#my-footer{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+#my-footer-text{
+    width: 248px;
+    height: 18px;
+
+    /* Body S 14 pt/Medium */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #081E34;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
